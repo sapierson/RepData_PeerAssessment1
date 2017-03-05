@@ -8,7 +8,7 @@ This assignment makes use of data from a personal activity monitoring device. Th
 
 ```r
 library(knitr)
-opts_chunk$set(echo = TRUE)
+opts_chunk$set(echo = TRUE, fig.path = "figure/")
 library(dplyr)
 ```
 
@@ -132,7 +132,7 @@ library(ggplot2)
     plot_hist
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](figure/unnamed-chunk-4-1.png)<!-- -->
 
 ```r
     # 2. Calculate and report the mean and median total number of steps taken per day
@@ -166,7 +166,7 @@ library(ggplot2)
     plot_time
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](figure/unnamed-chunk-5-1.png)<!-- -->
 
 ```r
     # 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum
@@ -244,7 +244,7 @@ library(ggplot2)
     plot_hist2
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](figure/unnamed-chunk-7-1.png)<!-- -->
 
 ```r
     # 4b. Calculate and report the mean and median total number of steps taken per day using calculated mean
@@ -277,7 +277,7 @@ library(ggplot2)
     plot_time2
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](figure/unnamed-chunk-8-1.png)<!-- -->
 
 
 **Are there differences in activity patterns between weekdays and weekends?**

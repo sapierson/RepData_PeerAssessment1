@@ -12,7 +12,7 @@ This assignment makes use of data from a personal activity monitoring device. Th
 ## Setting Environmentals and loading packages
 ```{r}
 library(knitr)
-opts_chunk$set(echo = TRUE)
+opts_chunk$set(echo = TRUE, fig.path = "figure/")
 library(dplyr)
 library(lubridate)
 library(ggplot2)
